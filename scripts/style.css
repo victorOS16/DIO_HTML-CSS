@@ -10,7 +10,7 @@ body {
 .header-wrapper {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(-45deg, #050404, #2E1C2B, #4A1942, #893168);
+    background: linear-gradient(-45deg, #040405, #21183d, #291c50, #36207a);
     background-size: 400% 400%;
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@ h2 {
     transition: .5s cubic-bezier(0.55, 0.025, 0.675, 0.97);
 }
 a:hover {
-    color: #2E1C2B;
+    color: #291c50;
     background-color: white;
 }
 @keyframes backgroundTransition {
@@ -131,7 +131,7 @@ a:hover {
 }
 .menu-items ul li a {
     margin: 10px 0;
-    color: #2E1C2B;
+    color: #291c50;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -140,7 +140,7 @@ a:hover {
 /*MENU ANIMATION*/
 #toggle:checked + .checkbox .trace:nth-child(1) {
     transform: rotate(45deg);
-    background-color: #2E1C2B;
+    background-color: #291c50;
     top: 47px;
 }
 #toggle:checked + .checkbox .trace:nth-child(2) {
@@ -151,7 +151,7 @@ a:hover {
 }
 #toggle:checked + .checkbox .trace:nth-child(3) {
     transform: rotate(-45deg);
-    background-color: #2E1C2B;
+    background-color: #291c50;
     top: 48px;
 }
 #toggle:checked + .checkbox {
@@ -185,7 +185,7 @@ a:hover {
     height: 300px;
     width: 400px;
     margin: 3rem 0 0;
-    background-image: url(img\flat.jpg);
+    background-image: url(img\coding.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -247,7 +247,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2E1C2B;
+    background-color: #291c50;
 }
 /*RESPONSIVE*/
 @media (max-width: 800px) {
