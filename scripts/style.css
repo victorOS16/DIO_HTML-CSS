@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 body {
     margin: 0;
     padding: 0;
     color: white;
-    font-family: 'macondo', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 /*HEADER*/
 .header-wrapper {
@@ -185,7 +185,7 @@ a:hover {
     height: 300px;
     width: 400px;
     margin: 3rem 0 0;
-    background-image: url(img\coding.png);
+    background-image: url('../img/coding.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -233,13 +233,14 @@ a:hover {
 }
 .card:hover > .card-wrapper::before {
     opacity: 1;
-    width: 350px;
-    height: 250px;
+    width: 250px;
+    height: 150px;
 }
 .card:hover > .card-wrapper p {
     font-size: 14px;
     opacity: 1;
     visibility: visible;
+    margin-left: 5px;
 }
 .footer {
     height: 100px;
